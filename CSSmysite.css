@@ -1,0 +1,109 @@
+body {
+  background-color: #062C30;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  color: #062C30;
+  font-family: pita;
+}
+p {
+  color: #062C30;
+  font-family: 'Inconsolata', monospace;
+}
+h2 {
+  color: #062C30;
+  font-family: pita;
+}
+h3 {
+  color: #062C30;
+  font-family: pita;
+}
+.nav {
+  background-image: url('Field.png');
+  position: sticky;
+  top: 0px;
+  padding: 25px;
+  z-index: 999;
+}
+.Title_section {
+  background-color: #062C30;
+  padding-top: 100px;
+  position: relative;
+}
+.section1 {
+  background-color: darkgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section2 {
+  background-color: silver;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Title_text {
+    color: #56BBF1;
+}
+.C1 {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+.C2 {
+  position: absolute;
+  left: 500px;
+  bottom: 150px;
+}
+.nav-text {
+  display: inline;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 22px;
+  color: #062C30;
+  margin: 25px, 0;
+}
+.img {
+  height: 200px;
+  background-color: transparent;
+}
+.skill {
+  width: 40%;
+  display: inline-block;
+}
+.btn {
+  background: transparent;
+  font-family: 'Press Start 2P', cursive;
+  color: #062C30;
+  font-size: 22px;
+  padding: 31px 20px 30px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+.trademark {
+  color: #56BBF1;
+  margin-top: 10;
+}
+#profile {
+  border-radius: 100%;
+}
+#t1 {
+  text-align: left;
+  width: 48%;
+  display: inline-block;
+}
+#t2 {
+  text-align: right;
+  width: 48%;
+  display: inline-block;
+}
+@font-face {
+  font-family: pita;
+  src: url(minecraft-webfont.woff);
+}
